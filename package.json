@@ -1,6 +1,6 @@
 {
 	"name": "@nullbounce/n8n-nodes-nullbounce",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "n8n node to validate email addresses using NullBounce API",
 	"license": "MIT",
 	"homepage": "https://nullbounce.com",

@@ -1,0 +1,59 @@
+{
+	"name": "@nullbounce/n8n-nodes-nullbounce",
+	"version": "0.1.0",
+	"description": "n8n node to validate email addresses using NullBounce API",
+	"license": "MIT",
+	"homepage": "https://nullbounce.com",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"nullbounce",
+		"email-verification",
+		"email-validator",
+		"email-deliverability",
+		"verify-email",
+		"bounce-rate",
+		"smtp-validation"
+	],
+	"author": {
+		"name": "NullBounce",
+		"email": "support@nullbounce.com",
+		"url": "https://nullbounce.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NullBounce/n8n-nodes-nullbounce.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/NullBounceApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/NullBounce/NullBounce.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "0.36.2",
+		"eslint": "9.29.0",
+		"prettier": "3.6.2",
+		"release-it": "^19.0.4",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

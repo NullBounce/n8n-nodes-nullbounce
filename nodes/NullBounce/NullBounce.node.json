@@ -1,0 +1,33 @@
+{
+	"node": "n8n-nodes-nullbounce",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Utility"],
+	"subcategories": {
+		"Communication": ["Email"],
+		"Utility": ["Validation", "Data Transformation"]
+	},
+	"alias": [
+		"Email Verification",
+		"Email Validator",
+		"Verify Email",
+		"Validate Email",
+		"Email Checker",
+		"Email Deliverability",
+		"Clean List",
+		"Bounce Prevention",
+		"NullBounce"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://nullbounce.com/docs/api/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://nullbounce.com/docs/api/"
+			}
+		]
+	}
+}
